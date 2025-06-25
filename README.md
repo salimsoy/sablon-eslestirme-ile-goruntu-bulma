@@ -170,7 +170,7 @@ class RioCreator:
 
 ```
 ### `main_1.py`
-Rio seçimi yapıldıktan sonra rio görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon olarak veriyoruz.
+`rio_creator.py` dosyasındaki RioCreator sınıfı kullanılarak RIO seçimi yapılır. RIO seçimi yapıldıktan sonra RIO görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon görüntü olarak veriyoruz.
 
 Aşağıda Python kodu ve açıklamaları yer almaktadır.
 ```python
