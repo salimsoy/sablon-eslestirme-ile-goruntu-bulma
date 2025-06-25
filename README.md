@@ -2,7 +2,7 @@
 
 Bu proje, OpenCV kütüphanesi kullanılarak kullanıcının seçtiği bir şablon görüntüyü, şablon eşleştirme yöntemi ile vidyodan bu nesneyi tespit etmeye yarayan bir uygulamayı içerir. 
 
-##Şablon Eşleştirme
+## Şablon Eşleştirme
 Şablon eşleştirme, bir görüntünün şablon görüntüsüne (yama) uyan alanlarını bulmak için
 kullanılan bir tekniktir. Yama bir dikdörtgen olmalı ama bu dikdörtgen tamamen alakalı
 olamayabilir. İki temel bileşene ihtiyacımız var:
