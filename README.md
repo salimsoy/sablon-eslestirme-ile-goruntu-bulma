@@ -107,7 +107,11 @@ Ancak, şablon eşleştirme yönteminin bazı kısıtları bulunduğundan, daha 
 
 ## Vidyodan rio seçip  Şablon Eşleştirme ile vidyoda bulma
 
-`rio_creator.py` Vidyoya tıklandığında o frame alıp frameden rio seçtiren kod dosyasıdır.
+
+### `rio_creator.py`
+- Kullanıcının video üzerinde fare ile bir bölge seçmesini sağlar.
+- Seçilen bölge `cropped_image` kaydedilir.
+- Seçim yapıldıktan sonra video duraklatılır ve seçilen görüntü gösterilir.
 
 Aşağıda Python kodu ve açıklamaları yer almaktadır.
 
@@ -165,7 +169,9 @@ class RioCreator:
         cv2.destroyAllWindows()
 
 ```
-`main_1.py`Rio seçimi yapıldıktan sonra rio görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon olarak veriyoruz.
+### `main_1.py`
+Rio seçimi yapıldıktan sonra rio görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon olarak veriyoruz.
+
 Aşağıda Python kodu ve açıklamaları yer almaktadır.
 ```python
 import cv2
