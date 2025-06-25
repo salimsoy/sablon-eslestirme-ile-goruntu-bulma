@@ -106,6 +106,11 @@ Ancak, şablon eşleştirme yönteminin bazı kısıtları bulunduğundan, daha 
 ## 2. Yöntem
 
 ## Vidyodan rio seçip  Şablon Eşleştirme ile vidyoda bulma
+
+`rio_creator.py` Vidyoya tıklandığında o frame alıp frameden rio seçtiren kod dosyasıdır.
+
+Aşağıda Python kodu ve açıklamaları yer almaktadır.
+
 ```python
 import cv2
 
@@ -160,7 +165,8 @@ class RioCreator:
         cv2.destroyAllWindows()
 
 ```
-Rio seçimi yapıldıktan sonra rio görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon olarak veriyoruz
+`main_1.py`Rio seçimi yapıldıktan sonra rio görselini daha önceden açıklamış ve yazmış olduğumuz şablon eşitleme kodunda şablon olarak veriyoruz.
+Aşağıda Python kodu ve açıklamaları yer almaktadır.
 ```python
 import cv2
 import numpy as np
